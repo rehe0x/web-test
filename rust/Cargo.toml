@@ -1,0 +1,8 @@
+[workspace]
+resolver = "2"
+members = [
+    # -- Application Libraries
+    "libs/actix_web", # e.g., base64, time.
+    "libs/axum_web", # e.g., rpc routing.
+]
+
